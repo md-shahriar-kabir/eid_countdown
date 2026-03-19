@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan & EID-UL-FITR</title>
+
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon Link  -->
+    <link rel="shortcut icon" href="./assets/noor.jpg" type="image/x-icon">
+    <!-- Custom css Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-green-100 via-emerald-50 to-yellow-50 text-gray-800">
+
+    <!-- Banner -->
+    <section class="relative text-center py-20 px-5 text-white">
+
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1587617425953-9075d28b8c46">
+            <div class="absolute inset-0 bg-green-900/70"></div>
+        </div>
+
+        <div class="relative z-10">
+            <!-- EID COUNTDOWN -->
+            <div class="text-center py-12">
+                <h2 class="text-4xl font-bold mb-6 text-white-700">
+                    <i class="fa-solid fa-stopwatch-20 text-yellow-400"></i> Eid-ul-Fitr Countdown
+                </h2>
+
+                <div class="flex justify-center gap-6 text-xl font-semibold">
+
+                    <div class="bg-white px-6 py-4 rounded-xl shadow">
+                        <span id="days" class="text-black">0</span><br><span class="text-black">Days</span>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl shadow">
+                        <span id="hours" class="text-black">0</span><br><span class="text-black">Hours</span>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl shadow">
+                        <span id="minutes" class="text-black">0</span><br><span class="text-black">Min</span>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl shadow">
+                        <span id="seconds" class="text-black">0</span><br><span class="text-black">Sec</span>
+                    </div>
+
+                </div>
+
+                <p class="mt-6 text-sm text-white">
+                    <i class="fa-solid fa-calendar text-yellow-400"></i> Expected Eid: 21 March 2026 (Saturday)
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="max-w-6xl mx-auto px-5 py-14 grid md:grid-cols-3 gap-6">
+        <div class="bg-white text-center p-6 rounded-2xl shadow hover:scale-105 hover:shadow-xl transition">
+            <i class="fa-solid fa-book-open-reader text-2xl text-yellow-400"></i>
+            <h3 class="text-xl font-semibold text-green-700"> Daily Reflection</h3>
+            <p class="text-gray-500">Capture your thoughts and growth.</p>
+        </div>
+
+        <div class="bg-white text-center p-6 rounded-2xl shadow hover:scale-105 hover:shadow-xl transition">
+            <i class="fa-solid fa-hands-praying text-2xl text-yellow-400"></i>
+            <h3 class="text-xl font-semibold text-green-700"> Gratitude</h3>
+            <p class="text-gray-500">Be thankful for every blessing.</p>
+        </div>
+
+        <div class="bg-white text-center p-6 rounded-2xl shadow hover:scale-105 hover:shadow-xl transition">
+            <i class="fa-solid fa-person-arrow-up-from-line text-2xl text-yellow-400"></i>
+            <h3 class="text-xl font-semibold text-green-700"> Self Growth</h3>
+            <p class="text-gray-500">Improve yourself daily.</p>
+        </div>
+
+    </section>
+
+    <!-- PRAYER TIMES -->
+    <section class="max-w-5xl mx-auto px-5 py-12">
+        <h2 class="text-2xl font-bold text-center mb-8 text-green-700">
+            <i class="fa-solid fa-mosque text-yellow-400"></i> Prayer Times
+        </h2>
+
+        <div class="grid md:grid-cols-5 gap-4 text-center">
+
+            <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">Fajr<br><span
+                    class="text-green-600 font-semibold">5:20 AM</span></div>
+            <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">Dhuhr<br><span
+                    class="text-green-600 font-semibold">1:30 PM</span></div>
+            <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">Asr<br><span
+                    class="text-green-600 font-semibold">5:00 PM</span></div>
+            <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">Maghrib<br><span
+                    class="text-green-600 font-semibold">6:20 PM</span></div>
+            <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">Isha<br><span
+                    class="text-green-600 font-semibold">8:00 PM</span></div>
+
+        </div>
+    </section>
+
+    <!-- DAILY QUOTE -->
+    <section class="max-w-3xl mx-auto px-5 py-12 text-center">
+        <h2 class="text-2xl font-bold mb-4 text-green-700">
+            <i class="fa-solid fa-alarm-clock text-yellow-400"></i> Daily Reminder
+        </h2>
+
+        <div class="bg-white p-6 rounded-xl shadow italic text-gray-600 hover:shadow-lg transition">
+            “Indeed, with hardship comes ease.” – Quran 94:6
+        </div>
+    </section>
+
+    <!-- Ramadan Noor -->
+    <section class="text-center py-12">
+        <h1 class="text-2xl font-bold mb-4 text-green-700">
+            Ramadan Noor <i class="fa-solid fa-moon text-yellow-300"></i>
+        </h1>
+
+        <p class="max-w-xl mx-auto text-gray-600">
+            Reflect, grow and connect with your soul this Ramadan.
+        </p>
+
+        <button class="mt-6 bg-yellow-500 text-black px-6 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition">
+            Start Reflection
+        </button>
+    </section>
+
+    <!-- REFLECTION CARDS -->
+    <section class="max-w-5xl mx-auto px-5 py-12">
+        <h2 class="text-2xl font-bold text-center mb-8 text-green-700">
+            <i class="fa-solid fa-person-shelter text-yellow-400"></i> Reflection Moments
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-1 transition">
+                <p class="italic text-gray-600">
+                    Today I practiced patience and stayed calm.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-1 transition">
+                <p class="italic text-gray-600">
+                    Helped someone selflessly.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-1 transition">
+                <p class="italic text-gray-600">
+                    Focused more on prayer and reflection.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-1 transition">
+                <p class="italic text-gray-600">
+                    Felt grateful for small blessings.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center py-16 px-5">
+        <h2 class="text-3xl font-bold mb-4 text-green-700">
+            Begin Your Spiritual Journey
+        </h2>
+
+        <p class="text-gray-600 mb-6">
+            Make this Ramadan meaningful and transformative.
+        </p>
+
+        <button class="mt-6 bg-yellow-500 text-black px-6 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition">
+            Get Started
+        </button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-6 text-gray-500">
+        © 2026 Ramadan Noor | Built with <span class="font-semibold text-green-600">Shahriar Kabir</span>
+    </footer>
+
+    <!-- Script Link -->
+    <script src="eidCountdown.js"></script>
+
+</body>
+
+</html>
