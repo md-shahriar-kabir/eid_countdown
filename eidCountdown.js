@@ -1,5 +1,5 @@
 
-const eidDate = new Date("March 21, 2026 00:00:00").getTime();
+const eidDate = new Date("May 28, 2026 00:00:00").getTime();
 
 const countdown = setInterval(() => {
     const now = new Date().getTime();
